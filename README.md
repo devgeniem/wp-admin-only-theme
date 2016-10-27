@@ -4,8 +4,8 @@
 
 Super minimalistic theme for sites which only need wp-admin dashboard.
 
-* It redirects non logged in users to `/wp-admin/`.
-* It shows empty error page if admin user goes to frontpage
+* It redirects non logged in users to `/wp-login`.
+* It shows empty error page if admin user visits the frontend.
 
 This is useful if you have empty main site in WordPress multisites.
 
