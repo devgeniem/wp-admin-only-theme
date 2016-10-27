@@ -7,7 +7,7 @@ Super minimalistic theme for sites which only need wp-admin dashboard.
 This theme doesn't have frontend at all. It's only purpose is to redirect users to `/wp-admin/`.
 
 ## Screenshots
-**Frontpage while logged in:**
+### Frontpage while logged in
 ![wp-admin-only-theme-logged-in-screenshot](https://cloud.githubusercontent.com/assets/5691777/19774719/b2d19752-9c76-11e6-849f-a0bd4905ab69.png)
 
 ## Installation
