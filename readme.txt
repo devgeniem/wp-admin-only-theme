@@ -1,8 +1,8 @@
 === WP Admin Only Theme ===
 Contributors: onnimonni
 Requires at least: WordPress 3.2
-Tested up to: WordPress 4.6
-Stable tag: 1.0
+Tested up to: WordPress 4.9
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: minimal, admin-only
@@ -37,6 +37,10 @@ GNU General Public License for more details.
 
 
 == Changelog ==
+
+= 1.1.0 =
+
+Fixed a redirect loop issue.
 
 = 1.0.0 =
 * Released: October 27, 2016

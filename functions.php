@@ -5,7 +5,7 @@ if ( defined('WP_CLI') and WP_CLI) { return; }
 
 // Redirect non logged in users to wp-login.php
 add_action( 'init', function(){
-    if ( ! is_user_logged_in() ) {
+    if ( ! is_user_logged_in() && $GLOBALS['pagenow'] !== 'wp-login.php' ) {
         wp_redirect( wp_login_url() );
     }
 });
