@@ -1,8 +1,8 @@
 === WP Admin Only Theme ===
 Contributors: onnimonni
 Requires at least: WordPress 3.2
-Tested up to: WordPress 4.6
-Stable tag: 1.0
+Tested up to: WordPress 4.9
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: minimal, admin-only
@@ -22,7 +22,7 @@ $ composer require devgeniem/wp-admin-only-theme
 
 == Copyright ==
 
-WP Admin Only Theme, Copyright 2016 Geniem Oy
+WP Admin Only Theme, Copyright 2016-2018 Geniem Oy
 Twenty Eleven is Distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -37,6 +37,11 @@ GNU General Public License for more details.
 
 
 == Changelog ==
+
+= 1.1.0 =
+* Released: December 28, 2018
+
+Fixed a redirect loop issue.
 
 = 1.0.0 =
 * Released: October 27, 2016
